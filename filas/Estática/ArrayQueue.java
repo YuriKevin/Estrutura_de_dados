@@ -49,16 +49,16 @@ public class ArrayQueue implements Queueble {
     }
 
     @Override
-    boolean isEmpty(){
+    public boolean isEmpty(){
         return (head -1 == tail);
     }
     @Override
-    boolean isFull(){
+    public boolean isFull(){
         return (tail == data.length -1);
     }
 
-    @Override
-    String print(){
+    public String print(){
+        String result = "";
         for(int i = head; i <= tail; i++){
             result += data[i];
             if (i != tail) {
