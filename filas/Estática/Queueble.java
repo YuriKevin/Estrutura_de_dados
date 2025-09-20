@@ -1,3 +1,4 @@
+package Estática;
 public interface Queueble {
 
     void enqueue( Object data);

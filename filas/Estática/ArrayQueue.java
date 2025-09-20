@@ -1,3 +1,4 @@
+package Estática;
 public class ArrayQueue implements Queueble {
 
     private Object[] data;
