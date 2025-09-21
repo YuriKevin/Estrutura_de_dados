@@ -1,4 +1,4 @@
-package listas_de_exercicios;
+package listas_de_exercicios.unidade_1.lista_1;
 import java.util.Scanner;
 
 public class Q2 {
