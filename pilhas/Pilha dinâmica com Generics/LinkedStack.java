@@ -1,3 +1,5 @@
+import filas.Fila_dinamica_com_Generics.DoubleNode;
+
 /**
 * Implementação de pilha dinâmica utilizando Generics
 * @author Yuri Nascimento
